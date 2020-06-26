@@ -27,7 +27,7 @@ void draw() {
   fill(100, 100, 100);
   triangle(rocketX, rocketY + 10, rocketX + 50, rocketY + 100, rocketX - 50, rocketY + 100);
   // 2. ▼ Write code BELOW this line to make the rocket blast off ▼ 
-    
+    rocketY = rocketY-5;
  
 
 
